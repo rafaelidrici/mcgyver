@@ -1,4 +1,3 @@
-from random import *
 
 class Position:
 
@@ -9,15 +8,19 @@ class Position:
         return str(self.position)
 
     def up(self):
+        x, y = self.position
         return Position(x-1, y)
 
     def down(self):
+        x, y = self.position
         return Position(x+1, y)
 
     def right(self):
+        x, y = self.position
         return Position(x, y+1)
     
     def left(self):
+        x, y = self.position
         return Position(x, y-1)
 
 class Player:
@@ -29,9 +32,6 @@ class Guardian:
     pass
     
 class Item:
-
-    
-
     pass
 
 class Zone:

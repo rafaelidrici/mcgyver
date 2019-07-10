@@ -34,7 +34,7 @@ Votre code devra être écrit en anglais : nom des variables, commentaires, fonc
 
 -------------------------------------------------------------------------------------------------------------------------
 
-modele.py :
+model.py :
 Classes Zone, Position, Player, Item, Guardian
 
 vue.py :
