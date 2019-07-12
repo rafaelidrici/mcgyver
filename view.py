@@ -1,16 +1,16 @@
-class playerView:
+class PlayerView:
 
     #
     #   Player graphical representation
     #
-
+    
     pass
 
-class guardianView:
+class GuardianView:
     pass
-
-class zoneView:
+    
+class ZoneView:
     pass  
 
-class itemView:
+class ItemView:
     pass

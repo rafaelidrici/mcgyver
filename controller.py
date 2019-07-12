@@ -1,4 +1,4 @@
-class mappingPlayer:
+class MappingPlayer:
     
     # 
     #   Player inputs
