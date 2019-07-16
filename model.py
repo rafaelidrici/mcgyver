@@ -1,3 +1,8 @@
+#! /usr/bin/env python3
+# coding: utf-8
+#
+import pygame
+import os
 
 class Position:
 
@@ -24,14 +29,20 @@ class Position:
         return Position(x, y-1)
 
 class Player:
-    # 
-    def __init__(self, x, y):
+    #
+    current_items = []
+    
+    def __init__(self, x, y, Position):
         self.position = (1, 1)
 
 class Guardian:
     pass
     
 class Item:
+
+    list_items = []
+
+    def __init__(self, x, y, Position):
     pass
 
 class Zone:
