@@ -1,0 +1,4 @@
+STARTING_SPAWN = "S"
+GUARDIAN_SPAWN = "G"
+WALLS = "X"
+PATH = "."
