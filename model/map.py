@@ -19,20 +19,11 @@ class Map:
     def load_from_file(self):
 
         with open(self.filename) as infile:
-            for x, line in enumerate(infile): #on lit chaque ligne
-                for y, col in enumerate(line):
+            for x, line in enumerate(infile): # reading every line
+                for y, col in enumerate(line): # reading every col
                     if col == constants.PATH:
                         self._paths.add(Position(x, y))
                     elif col == constants.STARTING_SPAWN:
                         self._start.add(Position(x, y))
                     elif col == constants.GUARDIAN_SPAWN:
                         self._goal.add(Position(x, y))
-
-def main():
-    map = Map('data/map1.txt')
-
-    p = Position(2, 2).down
-    print(map.is_valid(p))
-
-if  __name__ == "__main__":
-    main()
